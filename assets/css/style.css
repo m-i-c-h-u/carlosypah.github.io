@@ -1,0 +1,101 @@
+.navbar{
+    background-color: #0f0c22;
+    /* color: #d2d1f4; */
+}
+.nav-link:focus, .nav-link:hover, .nav-link{
+    color: #c88cf7;
+    background-color: #0f0c22;
+    
+}
+
+header{
+    background-color: #0c0438;
+    height: 30em;
+}
+.card-body-presentacion
+{
+    background-color: #883ad9;
+    color: #c88cf7;
+    height: 100%;
+}
+.educacion{
+    height: 40em;
+    border: 1em;
+    background-color: #883ad9;
+}
+.experiencia{
+    height: 40em;
+background-color: #c88cf7;
+}
+footer{
+    min-height: 100%;
+    background-color: #0c0438;
+    color: #c88cf7;
+    
+}
+/* grid historia */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+
+.div2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div4 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.div5 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.div9 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #d2d1f4;
+    border-radius: 50%;
+    display: inline-block;
+  }
