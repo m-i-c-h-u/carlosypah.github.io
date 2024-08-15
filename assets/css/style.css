@@ -12,6 +12,33 @@ header{
     background-color: #0c0438;
     height: 30em;
 }
+.header-presentacion{
+    max-height: 25em;
+}
+.ico{
+    width: 30px;
+}
+a:link{
+    color: #d2d1f4 !important;
+}
+a:visited{
+    color: #d2d1f4 !important;
+}
+a:hover{
+    color: #d2d1f4 !important;
+}
+a:active{
+    color: #d2d1f4 !important;
+}
+.card-presentacion{
+    max-height: 25em;
+}
+.row-presentacion{
+    max-height: 25em;
+}
+.col-presentacion{
+    max-height: 25em;
+}
 .card-body-presentacion
 {
     background-color: #883ad9;
