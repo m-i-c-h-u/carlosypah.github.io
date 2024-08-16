@@ -1,3 +1,9 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
 .navbar{
     background-color: #0f0c22;
     /* color: #d2d1f4; */
@@ -19,16 +25,20 @@ header{
     width: 30px;
 }
 a:link{
-    color: #d2d1f4 !important;
+    color: #c88cf7 !important;
 }
 a:visited{
-    color: #d2d1f4 !important;
+    color: #c88cf7 !important;
 }
 a:hover{
-    color: #d2d1f4 !important;
+    color: #c88cf7 !important;
 }
 a:active{
-    color: #d2d1f4 !important;
+    color: #c88cf7 !important;
+}
+section{
+    display: grid;
+    align-items: center;
 }
 .card-presentacion{
     max-height: 25em;
@@ -54,26 +64,43 @@ a:active{
     height: 40em;
 background-color: #c88cf7;
 }
+.titulo-experiencia{
+    background: linear-gradient(to right, #c88cf7 67%, #883ad9 100%);
+}
+.titulo-educacion{
+    background: linear-gradient(to right, #0c0438 0%, #883ad9 33%);
+    color: #c88cf7;
+}
 footer{
     min-height: 100%;
     background-color: #0c0438;
     color: #c88cf7;
     
 }
+
 /* grid historia */
 
+.logo-historia:hover{
+    filter: sepia(60%);
+    box-shadow: 0px 0px 5px 5px #883ad9
+}
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 8px;
+    color: #0c0438;
 }
-    
+.parent>h3{
+    text-shadow: #d2d1f4 10px 0 10px;
+}
 
 .div2 {
     grid-column-start: 1;
     grid-row-start: 2;
+
 }
 
 .div3 {
@@ -125,4 +152,10 @@ footer{
     background-color: #d2d1f4;
     border-radius: 50%;
     display: inline-block;
+  }
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
   }

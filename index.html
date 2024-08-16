@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/57c4d9db44.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="shortcut icon"
       href="/assets/imgs/project-management.ico"
@@ -84,44 +94,148 @@
       </div>
     </header>
     <section class="experiencia" id="experiencia">
-      <div class="parent">
-        <div class="div1">
-          <img src="/assets/imgs/routing_spa_logo.jpeg" alt="" />
+      <div class="titulo-experiencia">
+        <div class="jumbotron jumbotron-fluid">
+          <h2 class="text-end p-4 display-4">Experiencia</h2>
         </div>
-        <div class="div2">
-          <img src="/assets/imgs/pricing_spa_logo.jpeg" alt="" />
+      </div>
+
+      <div class="parent text">
+        <div class="div1 text-center">
+          <img
+            src="/assets/imgs/routing_spa_logo.jpeg"
+            class="logo-historia"
+            alt="logo TO"
+          />
         </div>
-        <div class="div3"><span class="dot"></span></div>
-        <div class="div4"><span class="dot"></span></div>
+        <div class="div2 text-center">
+          <img
+            src="/assets/imgs/pricing_spa_logo.jpeg"
+            class="logo-historia"
+            alt="logo Pricing"
+          />
+        </div>
+        <div class="div3 text-center"><span class="dot"></span></div>
+        <div class="div4 text-center"><span class="dot"></span></div>
         <div class="div6">
           <span
-            >Tech Lead The Optimal Partner oct 2023 - actualidad 11 meses
-            Providencia, Región Metropolitana de Santiago, Chile</span
+            ><h3>Tech Lead</h3>
+            <h5>oct 2023 - actualidad 11 meses</h5>
+            <h6>Providencia, Región Metropolitana de Santiago, Chile</h6></span
           >
         </div>
         <div class="div7">
-          <span
-            >Jefe de proyectos jul 2018 - nov 2023 5 años 5 meses Chile</span
-          >
+          <span>
+            <h3>Jefe de proyectos</h3>
+            <h5>jul 2018 - nov 2023 5 años 5 meses</h5>
+            <h6>Chile</h6>
+          </span>
         </div>
         <div class="div8">
-          <span
-            >Líder de Proyectos jun 2017 - nov 2023 6 años 6 meses Av.
-            Providencia 1760, Providencia, Santiago</span
-          >
+          <span>
+            <h3>Senior Back End Developer</h3>
+            <h5>jun 2017 - nov 2023 6 años 6 meses</h5>
+            <h6>Av. Providencia 1760, Providencia, Santiago</h6>
+          </span>
         </div>
         <div class="div9">
-          <span
-            >ngeniero de Desarrollo ago 2012 - jun 2017 4 años 11 meses Av.
-            Providencia 1760 Of 1001 Ingeniero de Desarrollo</span
-          >
+          <span>
+            <h3>Ingeniero de Desarrollo</h3>
+            <h5>ago 2012 - jun 2017 4 años 11 meses</h5>
+            <h6>Av. Providencia 1760, Providencia, Santiago</h6>
+          </span>
         </div>
       </div>
     </section>
-    <section class="educacion" id="educacion">Educación</section>
+    <section class="educacion" id="educacion">
+      <div class="titulo-educacion">
+        <div class="jumbotron jumbotron-fluid">
+          <h2 class="text-start p-4 display-4">Educación</h2>
+        </div>
+      </div>
+      <div class="parent">
+        <div class="div1 text-center">
+          <img
+            src="/assets/imgs/universidad_andres_bello_logo.jpeg"
+            class="logo-historia"
+            alt="logo TO"
+          />
+        </div>
+        <div class="div2 text-center">
+          <img
+            src="/assets/imgs/coursera_logo.jpeg"
+            class="logo-historia"
+            alt="logo Pricing"
+          />
+        </div>
+        <div class="div3 text-center">
+          <img
+            src="/assets/imgs/scrum_logo.jpeg"
+            class="logo-historia"
+            alt="logo Pricing"
+          />
+        </div>
+        <div class="div6">
+          <span>
+            <h3>Universidad Nacional Andrés Bello</h3>
+            <h5>Ingeniero en Computación e Informática</h5>
+            <h6>2008 - 2011</h6>
+          </span>
+        </div>
+        <div class="div7">
+          <span>
+            <h3>Camino a la Excelencia en Gestión de Proyectos</h3>
+            <h5>Coursera Course Certificates</h5>
+            <h6>dic 2016</h6>
+          </span>
+        </div>
+        <div class="div8">
+          <span>
+            <h3>Professional Scrum Master™ I (PSM I)</h3>
+            <h5>Scrum.org</h5>
+            <h6>2016</h6>
+          </span>
+        </div>
+      </div>
+    </section>
+    <button
+      type="button"
+      class="btn btn-info btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+      <script>
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
 
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </button>
     <footer class="text-center p-4">
-      <p class="mb-0">Carlos Muñoz. Todos los derechos reservados.</p>
+      <p class="mb-0">
+        Carlos Muñoz de la Barra. Todos los derechos reservados.
+      </p>
     </footer>
   </body>
   <script
