@@ -5,17 +5,17 @@ body{
     font-style: normal;
 }
 .navbar{
-    background-color: #0f0c22;
+    background-color: #39195a;
     /* color: #d2d1f4; */
 }
 .nav-link:focus, .nav-link:hover, .nav-link{
     color: #c88cf7;
-    background-color: #0f0c22;
+    background-color: #2a1344;
     
 }
 
 header{
-    background-color: #0c0438;
+    background-color: #fdfdfd;
     height: 30em;
 }
 .header-presentacion{
@@ -25,7 +25,7 @@ header{
     width: 30px;
 }
 a:link{
-    color: #c88cf7 !important;
+    color: #d8b4f3 !important;
 }
 a:visited{
     color: #c88cf7 !important;
